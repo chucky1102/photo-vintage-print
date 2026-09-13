@@ -1,0 +1,4 @@
+interface:
+  display_name: "旧刊新印 · 照片转复古印刷"
+  short_description: "把实拍照片转为复古印刷插画与杂志封面，保留人物关系并从原片提取配色"
+  default_prompt: "使用 $photo-vintage-print 将这张照片转为旧刊新印风格的复古杂志封面，保留人物表情、动作与原片配色。"
