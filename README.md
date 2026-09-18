@@ -31,6 +31,8 @@ Restart Codex after installation so the skill list refreshes.
 
 可以明确要求“纯插画不加字”“只保留一个标题”“少做旧”或指定标题。未指定时，Skill 采用默认封面模式，让完整原始 Prompt 根据照片生成标题、配色与版式。
 
+v1.1.0 新增可选版式参考模式。只有明确要求换版式、制作小红书封面、Twitter/X 横图或指定图片窗口、多面板、中文竖排等结构时才启用；默认原始 Prompt 和原片转换路线不变。
+
 ## 工作方式 / How it works
 
 1. 实际查看用户提供的最高分辨率原片。
@@ -64,6 +66,7 @@ photo-vintage-print/
 ├── references/
 │   ├── original-prompt.md
 │   ├── original-prompt.sha256
+│   ├── layout-routing.md
 │   ├── print-controls.md
 │   └── quality-check.md
 ├── scripts/

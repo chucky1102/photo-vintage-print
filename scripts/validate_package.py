@@ -22,6 +22,7 @@ REQUIRED = (
     "references/original-prompt.md",
     "references/original-prompt.sha256",
     "references/print-controls.md",
+    "references/layout-routing.md",
     "references/quality-check.md",
     "scripts/prepare_prompt.py",
     "THIRD_PARTY_NOTICES.md",
